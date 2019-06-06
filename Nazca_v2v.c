@@ -1,6 +1,6 @@
 /*
-INFO:                   Jest to testowy program realizujacy komunikacje dwustronna systemem Nazca
-                        poprzez protokol AMQP pracuje on petli ciaglej, nie zwiera funkcji
+INFO:                   Jest to testowy program realizujacy komunikacje dwustronna z systemem Nazca
+                        poprzez protokol AMQP pracuje on w petli ciaglej, nie zwiera funkcji
                         zwalniajacych polaczenie, program zatrzymuje sie poprzez ctrl-break.
 
 Realizowane zadania:	Program wykonuje kolejno
@@ -16,7 +16,7 @@ Realizowane zadania:	Program wykonuje kolejno
 
 Uzywane Biblioteki:     Rabbitmq-c https://github.com/alanxz/rabbitmq-c
                         cJSON https://github.com/DaveGamble/cJSON/
-						Program wymaga ich zainstalowania jako shared library
+			Program wymaga ich zainstalowania jako shared library
 Kompilacja:		make all
 */
 
